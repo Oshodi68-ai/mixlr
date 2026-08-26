@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    color: red; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn-nav {
+    background-color: red;
+    color: white ;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600px;
+}
+
+.topic {
+    min-height: 50dvh;
+    width: 70%;
+    margin: 5px auto;
+    border: 1px solid green;
+}
+
+
+.containe {
+    width: 500;
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    border: 1px solid red;
+}
+
+.topic h1 {
+    font-size: 3.1rem;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 900px;
+}
+.topic p {
+    font-size: 1.5rem;
+    font-weight: 0;
+}
+
+.Cincinnati {
+    min-height: 50dvh;
+    width: 95%;
+    margin: 20px auto;
+    /* border: 1px solid green; */
+
+}
+
+.Cincinnati> .container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap: 27px;
+    border-radius: 20px;
+}
+
+.Cincinnati .mixlr {
+    border: 1px solid blue;
+    height: 400px;
+    border-radius: 20px;
+    background-color: none;
+    
+}
+
+.Cincinnati .mixlr .img {
+    /* border: 1px solid black; */
+    height: 250px;
+    text-align: center;
+}
+
+
+.Cincinnati  .same {
+    margin-top: 40px;
+}
+
+.Omaha {
+    min-height: 50dvh;
+    width: 95%;
+    margin: 20px auto;
+
+}
+
+.Omaha> .container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap: 27px;
+}
+
+.Omaha .mixlr {
+    border: 1px solid blue;
+    height: 400px;
+    border-radius: 20px;
+    background-color: none;
+    
+}
+
+.Omaha .mixlr .img {
+    /* border: 1px solid black; */
+    height: 250px;
+    text-align: center;
+}
+
+
+.Omaha  .same {
+    margin-top: 40px;
+}
+
+.Real {
+    min-height: 50dvh;
+    width: 95%;
+    margin: 20px auto;
+
+}
+
+.Real> .container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap: 27px;
+}
+
+.Real .mixlr {
+    border: 1px solid blue;
+    height: 400px;
+    border-radius: 20px;
+    background-color: none;
+    
+}
+
+.Real .mixlr .img {
+    /* border: 1px solid black; */
+    height: 250px;
+    text-align: center;
+}
+
+
+.Real  .same {
+    margin-top: 40px;
+}
+
+.The {
+    min-height: 50dvh;
+    width: 95%;
+    margin: 20px auto;
+
+}
+
+
+.The> .container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    align-items: center;
+    gap: 27px;
+}
+
+.The .mixlr {
+    border: 1px solid blue;
+    height: 400px;
+    border-radius: 20px;
+    background-color: none;
+    
+}
+
+.The .mixlr .img {
+    border: 1px solid black;
+    height: 250px;
+    text-align: center;
+}
+
+
+.The  .same {
+    margin-top: 40px;
+}
+
+.same .a {
+    margin: auto;
+    margin-top: auto;
+
+
+}
+
+/* .Yeovil {
+    min-height: 50dvh;
+    width: 95%;
+    margin: 20px auto;
+
+} */
+
+
+.container1{
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    /* text-align: center; */
+    /* gap: 27px; */
+    /* min-height: 50dvh; */
+    /* width: 40%; */
+    margin-left: 26.5px;
+}
+
+.container1 .same1 a{
+    margin: auto;
+    margin-top: auto;
+
+
+}
+
+.container1 .same1 .abc{
+    border: 1px solid #bbceb9;
+    height: 40px;
+    width: 120px;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #bbceb9;
+    border-radius: 300px;
+}
+
+.mixlr1 {
+    border: 1px solid blue;
+    height: 390px;
+    width: 350px;
+    background-color: #A1C89F;
+
+    
+}
+
+.mixlr1 .img1 {
+    border: 1px solid black;
+    height: 250px;
+    text-align: center;
+    width: 350px;
+}
+
+
+.same1 {
+    margin-top: 40px;
+}
+
+
+.resp {
+    width: 50%;
+    height: 20dvh;
+    margin: 20px auto;
+    background-color: tomato;
+}
+
+@media screen and (max-width: 900px) {
+    .resp {
+        width: 70%;
+        background-color: rebeccapurple;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .resp {
+        width: 90%;
+        background-color: red;
+    }
+}

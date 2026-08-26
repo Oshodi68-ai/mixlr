@@ -242,22 +242,21 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #333333;
+    color: black;
     font-size: 15px;
     font-weight: 500;
 }
 
 .btn-nav {
-    background-color: #e51a24;
-    color: #ffffff !important;
+    background-color: red;
+    color: white;
     padding: 8px 16px;
     border-radius: 20px;
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 
 .Get>.containe {
-    max-width: 600px;
     width: 100%;
     text-align: center;
     margin-top: 10%;
