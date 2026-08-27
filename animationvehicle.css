@@ -7,8 +7,10 @@
 .container {
     height: 90dvh;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
+    overflow: hidden;
+    row-gap: 50px;
 }
 
 @keyframes to_fro {
@@ -55,24 +57,25 @@
 .vehicles img{
     position: absolute;
     margin-top: auto;
+    row-gap: 10px;
 }
 
 
 
 .img1{
-    top: -20px;  
     animation: img1 30s ease  infinite;
+    top: -50px;
 }
 
 .img2{
-    top: -10px;
     animation: img2 10s   infinite ;
+    top: -20px;
 
 }
 
 .img3{
-    top:-5px;
     animation: img2 8s   infinite reverse;
+    top: -2px;
 }
 
 @keyframes img1 {

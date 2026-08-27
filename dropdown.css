@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 40dvh;
+    width: 50%;
+    border: 2px solid red;
+    margin: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the trigger button */
+.dropdown-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hide the dropdown content by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+/* Style the individual links inside the menu */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Add a background color to links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* CORE LOGIC: Show the dropdown menu when hovering over the container */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the button color when the dropdown is active */
+.dropdown:hover .dropdown-btn {
+    background-color: #2980b9;
+}
